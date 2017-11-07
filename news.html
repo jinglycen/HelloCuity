@@ -1,0 +1,261 @@
+<!Doctype Html>
+<html>
+  <head>
+    <meta charset = "utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>news website</title>
+	<!--引入JQUERY-->
+	<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+	
+	<!--引入CSS-->
+	<link rel="stylesheet" type="text/css" href="project.css"/>
+	
+      <!-- 引入 Bootstrap-->
+      <link href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+	
+	  <script src="C:/Users/menme/Desktop/news project/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+  </head>
+
+    <body>
+	            <div id = "shijian">
+				<script>
+                  var d=new Date();
+                  document.write(d);
+                  </script>
+				  </div>
+	
+        <!--Top-->
+       <header id="top">
+	   
+      <div class = "container" id="top_box">
+	  <a href="#"><img src="logo1.jpg" width= "100px"/></a>
+     
+	 
+	 
+	 <!--right of the top-->
+	 
+	 <div class="dropdown">
+	 <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" 
+      data-toggle="dropdown">
+      
+	 
+		Worldwide<span class="caret"></span>
+     </button>
+	 
+       <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+        <li role="presentation">
+         <a role="menuitem" tabindex="-0.3" href="#">Europe</a>
+        </li>
+         <li role="presentation">
+         <a role="menuitem" tabindex="-0.3" href="#">USA</a>
+         </li>
+         <li role="presentation">
+         <a role="menuitem" tabindex="-0.3" href="#">Asia</a>
+         </li>
+         <li role="presentation" class="divider"></li>
+         <li role="presentation">
+         <a role="menuitem" tabindex="-0.3" href="#">Middle east</a>
+         </li>
+		  </ul>
+		  </div>
+		  
+		    <script>
+		    $(".dropdown").hover(function(){
+			  $(this).children("ul").slideDown("6000");
+			  },
+			  function(){
+			  $(this).children("ul").slideUp("6000");
+			
+			 });
+		  
+		  
+		  
+		  
+		   </script>
+		
+		  
+		<div class = "rt">
+		 <ul>
+		  <li>
+	      <a href="#">Article|</a>
+		  </li>
+	      <li>
+		    <b></b>
+			<a href="#">Gallery|</a>
+		    </li>
+		  
+		    
+		  
+		   <li class="app_jd">
+		    <b></b>
+			<a href="#">E-Shops|</a>
+		   </li>
+		    
+			
+			<li class="vip">
+		    <b></b>
+			<a href="#">My account|</a>
+		    </li>
+		  
+		  
+		  
+		  <li>
+		    <b></b>
+			<a href="#">Map</a>
+		  </li>
+		   
+	   </ul>
+	   
+     </div>
+	 
+	 
+	 
+	</header>
+ <!--middle part-->
+        <div id ="content_top">
+		  <div id ="content_top_left">
+           <a> <h3 class = "content"><strong>Breaking News</strong>
+		    <br>
+			President Trump's 35 most eye-popping quotes in his
+		   interview with the New York Times,Many of the YouTube videos Donald Trump appeared in prior to his presidential campaign, in which Trump often shared his thoughts on politics, are no longer available on the Trump Organization's channel.
+
+In the four years leading up to Trump's run for President, 
+the Trump Organization occasionally released videos titled 
+"From The Desk of Donald Trump," in which Trump would share
+ his thoughts on politics and current events. Most of those videos —
+ 66 total, according to a Trump Organization playlist on YouTube -- 
+ have been made private, meaning only the user who uploaded the videos has access to them. </h3></a>
+
+		      <img src = "trump.jpg" width = “800px” height="250px">
+		    </div>
+		   
+		   <!--right aside-->
+		        
+		          
+				  
+         
+	         <div id = "content_top_right">
+			    
+			  
+		       <ul>
+			    <a href="#"><li><button>&laquo </button><span>text text text</span> </li></a> 
+				<a href="#"><li><button>&laquo </button><span>text text text</span> </li></a>
+				<a href="#"><li><button>&laquo </button><span>text text text</span> </li></a>
+				<a href="#"><li><button>&laquo </button><span>text text text</span> </li></a>
+				<a href="#"><li><button>&laquo </button><span>text text text</span> </li></a>
+				<a href="#"><li><button>&laquo </button><span>text text text</span> </li></a>
+				<a href="#"><li><button>&laquo </button><span>text text text</span> </li></a>
+				<a href="#"><li><button>&laquo </button><span>text text text</span> </li></a>
+				<a href="#"><li><button>&laquo </button><span>text text text</span> </li></a>
+				<a href="#"><li><button>&laquo </button><span>text text text</span></li></a>
+				
+		       
+		        
+		
+		
+		
+		
+		
+		
+		
+		       </ul>
+			 </div>
+		
+		
+		
+		
+		
+		
+	 
+	        </div>
+		   </div>
+		   
+		    <script>
+		    /*$("h3").click(function(){
+			  if($(".content").is(":hidden")){
+			      $(".content").show("slow");
+				  }
+				  
+				  else{
+				     $(".content").hide("slow");
+					 
+					 }
+				    
+			
+			
+			
+			
+			
+			
+			
+			
+			});*/
+			$("h3").click(function(){
+			
+			 $(".content").toggle(3000);
+			
+			
+			
+			});
+		 
+		 
+		 
+		 
+		 
+		    </script>
+        <div class="col-md-6 lunbo">
+         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="margin-top: 1.4285rem">
+            <!-- Indicators -->
+             <ol class="carousel-indicators" style="margin-left: -20rem">
+			 <!--这里规定播放顺序 3个li代表3个小点 点一个小点 就是一张图-->
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>     
+			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+		
+     <!--<div class = "wrapper">
+	    <div id ="focus">
+	    <ul>
+		  <li><a href="#"><img src = "j2.jpg" width="300px"></a></li>
+	      <li><a href="#"><img src = "j3.jpg" width="300px"></a></li>
+	      <li><a href="#"><img src = "j3.jpg" width="300px"></a></li>
+		  
+		</ul>
+		</div>
+       </div>-->
+	   
+	   <div class="carousel-inner"> <!--这里是要播放的图 3张-->
+            <div class="item active"><!--这里的active 对应上面active的那个小圆点-->
+                <img src="j2.jpg" alt="..." style="width: 64rem;height: 31.9285rem">
+                <div class="carousel-caption"></div>
+            </div>
+            <div class="item">
+                <img src="j3.jpg" alt="..."style="width: 64rem;height: 31.9285rem">
+                <div class="carousel-caption"></div>
+            </div>
+            <div class="item">
+                <img src="j3.jpg" alt="..."style="width: 64rem;height: 31.9285rem">
+                <div class="carousel-caption"></div>
+            </div>
+        </div>
+        <!-- Controls   这里就是那左右两个箭头-->
+        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">prev
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">next
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+</div>
+    
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+
+
+     </body>
+</html>
